@@ -1,0 +1,22 @@
+{
+	"screen1_title": "BIENVENIDO A",
+	"screen1_touchScreen" : "Toca la pantalla para anunciar tu llegada",
+	"screen2_title": "Seleccioná la razón de",
+	"screen2_subtitle": "tu visita...",
+	"screen2_option_1": "Entrevista",
+	"screen2_option_2": "Primer día",
+	"screen2_option_3": "Cliente",
+	"screen2_option_4": "Otros",
+	"screen3_title": "Ingresá tu nombre",
+	"screen3_subtitle": "y apellido",
+	"screen3_spaceButton": "espacio",
+	"screen3_back": "<= atras",
+	"screen3_button": "Ingresar",
+	"screen4_title_main": "¡Gracias ",
+	"screen4_title": "Esperanos en el hall con un café,",
+	"screen4_subtitle": "en instantes te atenderemos.",
+	"screen4_back": "<= atras",
+	"screen4_title_main_others" : "¡Gracias",
+    "screen4_title_others" : "Dirigite al piso 3",
+    "screen4_subtitle_others" : "para tu atención"
+}

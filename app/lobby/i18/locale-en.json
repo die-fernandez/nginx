@@ -1,0 +1,22 @@
+{
+	"screen1_title": "WELCOME TO",
+	"screen1_touchScreen" : "To begin, please touch the screen",
+	"screen2_title": "Select the reason ",
+	"screen2_subtitle": "of your visit...",
+	"screen2_option_1": "Interview",
+	"screen2_option_2":"First day",
+	"screen2_option_3":"Client",
+	"screen2_option_4":"Others",
+	"screen3_title": "Enter your first",
+	"screen3_subtitle": "and last name",
+	"screen3_spaceButton": "space",
+	"screen3_back": "<= back",
+	"screen3_button": "Enter",
+	"screen4_title_main": "Thank you ",
+	"screen4_title": "Please, have a cup of coffee, ",
+	"screen4_subtitle": "we will be with you shortly.",
+	"screen4_back": "<= back",
+	"screen4_title_main_others" : "Thank you",
+    "screen4_title_others" : "Go to the 3rd floor",
+    "screen4_subtitle_others" : "for further attention."
+}
