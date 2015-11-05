@@ -1,13 +1,17 @@
 server {
-    listen 80 default_server;
-    listen [::]:80 default_server ipv6only=on;
+        listen   80 default_server;
 
-    root /app;
-    index index.html index.htm;
-
-    server_name localhost;
-
-    location / {
-        try_files $uri $uri/ =404;
-    }
+        root /app/lobby;
+        index index.html;
+	
+	location /admin{
+		alias /app/admin;
+		index index.html;
+	}
+	location /vreceptionist{
+		proxy_pass http://proxy-1:8000;
+		proxy_set_header    Host            $host;
+		proxy_set_header    X-Real-IP       $remote_addr;
+		proxy_set_header    X-Forwarded-for $remote_addr;
+	}
 }
