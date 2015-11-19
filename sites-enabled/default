@@ -1,14 +1,10 @@
 server {
         listen   80 default_server;
 
-        root /app/lobby;
+        root /app/;
         index index.html;
 	
-	location /admin{
-		alias /app/admin;
-		index index.html;
-	}
-	location /vreceptionist{
+	location /api{
 		proxy_pass http://proxy:8000;
 		proxy_set_header    Host            $host;
 		proxy_set_header    X-Real-IP       $remote_addr;
