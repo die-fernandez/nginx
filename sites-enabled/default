@@ -1,11 +1,15 @@
 server {
         listen   80 default_server;
 
-        root /app/;
+        root /app/lobby;
         index index.html;
 	
-	location /api{
-		proxy_pass http://PROXY:8080;
+	location /admin{
+		alias /app/admin;
+		index index.html;
+	}
+	location /vreceptionist{
+		proxy_pass http://api:8080;
 		proxy_set_header    Host            $host;
 		proxy_set_header    X-Real-IP       $remote_addr;
 		proxy_set_header    X-Forwarded-for $remote_addr;
